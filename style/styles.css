@@ -1,0 +1,101 @@
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+	background:#ffffff;
+	}
+	
+.clear { clear: both; }	
+h1 { font-size: 3.0em; text-align:right; color:#ffffff; text-shadow:3px;}
+h2 { font-size: 1em; text-align:left; color:#0000FF; text-shadow:3px;}
+div#page-wrap {
+		width:800px; 
+		margin: 0 auto;
+		background: #ffffff;
+		padding-bottom: 50px;
+		}
+		div#page-wrap div#header {
+			background:url(../images/bg.png) repeat-x top;
+			height:100px; 
+		}
+		div#header ul#nav-header {
+			height: 40px;
+			list-style:none;
+			color:#FFFF00;
+			}
+			div#header ul#nav-header li {	
+					display:inline;
+					font-size:0.8em;
+				}
+				div#header ul#nav-header li a {
+					display: block;
+					width: 100px; height:29px;
+					float: left;
+					color: white;
+					font-weight: bold;
+					text-decoration: none;
+					text-align:center;
+					text-transform:uppercase;
+					margin:65px 0 0 10px ;
+					}
+					div#header ul#nav-header li a:hover, div#header ul#nav-header li a:active {
+						color:#FF0000;
+						}
+				
+		div#left-content {
+			width:200px;
+			float:left;
+			}
+			div#left-content div#tag {
+				margin: 15px 0 25px 15px;
+				}
+			div#left-content ul#left {
+				font-size:0.8em;
+				list-style:none;
+				}
+				div#left-content ul#left li {
+					display:block;
+					width: 200px;
+					height:29px;
+					margin-top:-8px;
+				}
+				div#left-content ul#left li a {
+					text-decoration:none;
+					text-align:center;
+				}
+				div#left-content ul#left  ul#child{
+					margin-left:15px;
+				}
+				
+		div#page-wrap div#content {
+			width:580px;
+			float:right;
+			padding:15px 0 15px 15px;
+			background:#CCCCCC;
+			}
+			
+			
+			
+			
+			
+			
+			
+				
+div#footer {
+	margin:0 auto;
+	height:30px;
+	background:url(../images/footerbg.png) repeat-x top;
+	text-align: right;
+	border-top: 5px solid #dddcdd;
+	padding: 5px 10px 0 0;
+	}
+	div#footer span {
+		color:#ffcc00;
+		}
+	div#footer p img{
+		}

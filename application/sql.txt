@@ -1,0 +1,10 @@
+$sql1 = "select * from mahasiswa where nama like '%$cari%' or '%$cari' or '$cari%' ";
+
+isi nya nampilin judul punya kita, abstraknya, status buat sidang ma prasidang ama dosen serta buat ngisi log bimbingan
+
+select m.nim, m.nama, pt.judul, pt.abstrak, pt.komen
+from 
+tbl_mahasiswa m, tbl_p_topik pt
+where
+m.nim = pt.nim &&
+m.nim = '$id'
